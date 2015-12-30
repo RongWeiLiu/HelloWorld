@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="226" id="KGk-i7-Jjw" customClass="ZHCell">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="225"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumb_avatar.png" id="pUu-ay-Fqd">
+                        <rect key="frame" x="8" y="8" width="42" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大哥来玩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dIP-9w-MYT">
+                        <rect key="frame" x="58" y="19" width="64" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.50196081399917603" green="0.25098040699958801" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以前初中上数学课，窗外隔壁小学在开什么会吧，不想听课就瞅着外面，结果，领导讲话完了，下面热烈鼓掌，我尼玛也跟着煞笔一样的拍巴掌永远忘不了数学老师和全班同学看着我的眼光 " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eE0-Rf-fWg">
+                        <rect key="frame" x="8" y="80" width="337" height="28"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_tag.png" id="7po-6z-SOK">
+                        <rect key="frame" x="8" y="127" width="31" height="29"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input_button_enable.png" id="8CH-CW-gtM">
+                        <rect key="frame" x="6" y="164" width="94" height="31"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w76-2b-1nh">
+                        <rect key="frame" x="58" y="169" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_for_good.png" id="d8R-R3-GwE">
+                        <rect key="frame" x="10" y="169" width="26" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input_button_enable.png" id="Pzj-hb-Nfg">
+                        <rect key="frame" x="249" y="164" width="94" height="31"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_for_comment.png" id="lgn-JY-fcj">
+                        <rect key="frame" x="254" y="168" width="26" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R48-X8-Njz">
+                        <rect key="frame" x="301" y="169" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pulish_bg.png" id="oRM-0D-HzP">
+                        <rect key="frame" x="0.0" y="214" width="385" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input_button_enable.png" id="JlR-PA-xzE">
+                        <rect key="frame" x="127" y="164" width="99" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="niI-iF-Gdv">
+                        <rect key="frame" x="197" y="170" width="22" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_for_bad.png" id="KnO-x4-8hc">
+                        <rect key="frame" x="134" y="167" width="26" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumb_pic.png" id="yrD-w2-265">
+                        <rect key="frame" x="10" y="43" width="104" height="100"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bad" destination="KnO-x4-8hc" id="gbR-f9-bUU"/>
+                <outlet property="badCount" destination="niI-iF-Gdv" id="Lk2-kz-Qka"/>
+                <outlet property="badLabel" destination="JlR-PA-xzE" id="zgj-U2-Jgn"/>
+                <outlet property="downLabel" destination="oRM-0D-HzP" id="aR9-IV-aKt"/>
+                <outlet property="good" destination="d8R-R3-GwE" id="v7h-zp-nnS"/>
+                <outlet property="goodCount" destination="w76-2b-1nh" id="URW-kf-F9K"/>
+                <outlet property="goodLabel" destination="8CH-CW-gtM" id="OcF-iY-cq5"/>
+                <outlet property="myLabel" destination="7po-6z-SOK" id="EWy-RM-Mn6"/>
+                <outlet property="nameLabel" destination="dIP-9w-MYT" id="IhO-KV-U2U"/>
+                <outlet property="speak" destination="lgn-JY-fcj" id="y9L-qY-Ho9"/>
+                <outlet property="speakCount" destination="R48-X8-Njz" id="CPf-Ti-xq2"/>
+                <outlet property="speakLabel" destination="Pzj-hb-Nfg" id="wkC-um-ZiC"/>
+                <outlet property="storyLabel" destination="eE0-Rf-fWg" id="1lH-b7-hjp"/>
+                <outlet property="titleImageView" destination="yrD-w2-265" id="C2Q-Yv-HeT"/>
+            </connections>
+            <point key="canvasLocation" x="295.5" y="440"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_for_bad.png" width="18" height="18"/>
+        <image name="icon_for_comment.png" width="18" height="18"/>
+        <image name="icon_for_good.png" width="18" height="18"/>
+        <image name="icon_tag.png" width="24" height="24"/>
+        <image name="input_button_enable.png" width="165" height="63"/>
+        <image name="pulish_bg.png" width="480" height="800"/>
+        <image name="thumb_avatar.png" width="45" height="45"/>
+        <image name="thumb_pic.png" width="250" height="250"/>
+    </resources>
+</document>
