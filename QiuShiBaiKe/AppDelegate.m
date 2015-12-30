@@ -64,6 +64,8 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    //SBSBSBSBSBSBSBBSSBBSBSBSBSBSBBSBSBSBBSBSBBSBSBSBSBBSBSBBSBBBSBBSBSBBSBSBSBBSBSBBSBSBSBBSBSBBSBBSBSBBSBSBB
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     UITabBarController *tbc = [[UITabBarController alloc] init];
